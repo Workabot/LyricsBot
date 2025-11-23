@@ -47,14 +47,5 @@ Displays help information.
 
 ## Security Notes
 - Commands requiring `SECRET_KEY` ensure only authorized users can control the bot.
-- The key can be rotated via console commands for added security.
-- Unauthorized attempts are logged and ignored.
-
----
-
-## Example Commands
-```text
-!song "Tokyo" <SECRET_KEY>
-!echo "Hello world!" <SECRET_KEY>
-!stop <SECRET_KEY>
-!help
+- The key is really only here to prevent excessive spam, its given out regularly and reset often.
+- Everything is logged. Messages, commands, responses. Everything. You're being watched :)
